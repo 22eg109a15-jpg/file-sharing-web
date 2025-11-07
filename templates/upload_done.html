@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Link Created</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); margin: 0; padding: 0; color: #333; }
+    .container { max-width: 800px; margin: 50px auto; background: #fff; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); padding: 40px; text-align: center; }
+    h1 { color: #4a5568; margin-bottom: 30px; font-size: 2.5em; }
+    .link-box { background: #edf2f7; padding: 20px; border-radius: 5px; margin: 20px 0; word-break: break-all; }
+    .link-box a { color: #667eea; text-decoration: none; font-weight: bold; }
+    .link-box a:hover { text-decoration: underline; }
+    .details { margin-bottom: 30px; }
+    .details p { font-size: 1.1em; color: #2d3748; }
+    .btn { background: #667eea; color: #fff; border: none; padding: 12px 20px; border-radius: 5px; font-size: 1em; cursor: pointer; text-decoration: none; display: inline-block; transition: background 0.3s; }
+    .btn:hover { background: #5a67d8; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1><i class="fas fa-check-circle"></i> Link Created</h1>
+  <p>Send this link to the receiver:</p>
+  <div class="link-box">
+    <a href="{{ link }}">{{ link }}</a>
+  </div>
+  <div class="details">
+    <p><i class="fas fa-tag"></i> Token: {{ token }}</p>
+    <p><i class="fas fa-clock"></i> Expires at (UTC): {{ expires_at }}</p>
+  </div>
+  <a href="{{ url_for('upload') }}" class="btn"><i class="fas fa-plus"></i> Create Another</a>
+</div>
+</body>
+</html>

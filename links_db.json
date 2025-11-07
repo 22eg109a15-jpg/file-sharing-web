@@ -1,0 +1,110 @@
+{
+  "Flf9QZu6-1pL5zo8N0EV9A": {
+    "created_at": "2025-11-06T10:52:24.035154",
+    "expires_at": "2025-11-07T10:52:24.035154",
+    "files": [
+      {
+        "original_name": "upload_done.html",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\Flf9QZu6-1pL5zo8N0EV9A\\0000_upload_done.html.enc",
+        "size": 1822
+      }
+    ],
+    "one_time": true
+  },
+  "BaJXqJR9Zh66PemJJ7_KcQ": {
+    "created_at": "2025-11-06T10:56:46.312180",
+    "expires_at": "2025-11-07T10:56:46.312180",
+    "files": [
+      {
+        "original_name": "15-7-25.pdf",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\BaJXqJR9Zh66PemJJ7_KcQ\\0000_15-7-25.pdf.enc",
+        "size": 411276
+      }
+    ],
+    "one_time": true
+  },
+  "OZ4YsBrtzUC0ZxWDHLTMlw": {
+    "created_at": "2025-11-06T11:16:17.145642",
+    "expires_at": "2025-11-07T11:16:17.145642",
+    "files": [
+      {
+        "original_name": "ChatGPT Image Nov 6, 2025, 03_11_54 PM.png",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\OZ4YsBrtzUC0ZxWDHLTMlw\\0000_ChatGPT_Image_Nov_6_2025_03_11_54_PM.png.enc",
+        "size": 1076918
+      }
+    ],
+    "one_time": true
+  },
+  "ri5AKRVL0exlxV2Aits2Bw": {
+    "created_at": "2025-11-06T11:18:59.438469",
+    "expires_at": "2025-11-07T11:18:59.438469",
+    "files": [
+      {
+        "original_name": "Screenshot (1).png",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\ri5AKRVL0exlxV2Aits2Bw\\0000_Screenshot_1.png.enc",
+        "size": 1227859
+      }
+    ],
+    "one_time": true
+  },
+  "UCrYgYzwie1vMPlaBh--0Q": {
+    "created_at": "2025-11-06T11:29:03.176896",
+    "expires_at": "2025-11-07T11:29:03.176896",
+    "files": [
+      {
+        "original_name": "gui_simulator.py",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\UCrYgYzwie1vMPlaBh--0Q\\0000_gui_simulator.py.enc",
+        "size": 3157
+      }
+    ],
+    "one_time": false
+  },
+  "0txRVSt0xOXS69p_cafqBQ": {
+    "created_at": "2025-11-06T11:29:55.800835",
+    "expires_at": "2025-11-07T11:29:55.800835",
+    "files": [
+      {
+        "original_name": "15-7-25.pdf",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\0txRVSt0xOXS69p_cafqBQ\\0000_15-7-25.pdf.enc",
+        "size": 411276
+      }
+    ],
+    "one_time": false
+  },
+  "ZT2Qkn4i5TY-WTv0I6P5cg": {
+    "created_at": "2025-11-06T11:30:44.559442",
+    "expires_at": "2025-11-07T11:30:44.559442",
+    "files": [
+      {
+        "original_name": "Secure_File_Encryption_Presentation.pptx",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\ZT2Qkn4i5TY-WTv0I6P5cg\\0000_Secure_File_Encryption_Presentation.pptx.enc",
+        "size": 46406
+      }
+    ],
+    "one_time": false
+  },
+  "LTwM_LO8MSbmwCTWJnJeMA": {
+    "created_at": "2025-11-06T11:32:53.594303",
+    "expires_at": "2025-11-07T11:32:53.594303",
+    "files": [
+      {
+        "original_name": "ChatGPT Image Nov 6, 2025, 03_11_54 PM.png",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\LTwM_LO8MSbmwCTWJnJeMA\\0000_ChatGPT_Image_Nov_6_2025_03_11_54_PM.png.enc",
+        "size": 1076918
+      }
+    ],
+    "one_time": false
+  },
+  "7qqPAwcTJ3OBOEdRt1I7pA": {
+    "created_at": "2025-11-07T10:06:45.765359",
+    "expires_at": "2025-11-08T10:06:45.765359",
+    "files": [
+      {
+        "original_name": "Gemini_Generated_Image_fpz5lkfpz5lkfpz5 (1).png",
+        "enc_path": "C:\\Users\\91781\\OneDrive\\Desktop\\simple_ransomware_simulator\\geminai\\web\\encrypted_store\\7qqPAwcTJ3OBOEdRt1I7pA\\0000_Gemini_Generated_Image_fpz5lkfpz5lkfpz5_1.png.enc",
+        "size": 349322
+      }
+    ],
+    "one_time": false
+  }
+}

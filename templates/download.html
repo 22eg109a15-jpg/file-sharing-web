@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Download Files</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); margin: 0; padding: 0; color: #333; }
+    .container { max-width: 800px; margin: 50px auto; background: #fff; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); padding: 40px; }
+    h1 { text-align: center; color: #4a5568; margin-bottom: 30px; font-size: 2.5em; }
+    .token { background: #edf2f7; padding: 15px; border-radius: 5px; text-align: center; margin-bottom: 20px; font-weight: bold; }
+    .error { color: #c53030; text-align: center; font-size: 1.2em; margin-bottom: 20px; }
+    .wrong-pin { color: #c53030; text-align: center; font-size: 1.2em; margin-bottom: 20px; background: #fed7d7; padding: 10px; border-radius: 5px; }
+    .details { margin-bottom: 30px; }
+    .details p { font-size: 1.1em; color: #2d3748; }
+    .file-list { list-style: none; padding: 0; margin-bottom: 30px; }
+    .file-list li { background: #f7fafc; padding: 10px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+    form { display: flex; flex-direction: column; gap: 20px; align-items: center; }
+    label { font-weight: bold; color: #2d3748; display: flex; align-items: center; gap: 10px; }
+    input[type="password"] { padding: 12px; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1em; width: 100%; max-width: 300px; transition: border-color 0.3s; }
+    input[type="password"]:focus { border-color: #667eea; outline: none; }
+    button { background: #667eea; color: #fff; border: none; padding: 15px 30px; border-radius: 5px; font-size: 1.2em; cursor: pointer; transition: background 0.3s; }
+    button:hover { background: #5a67d8; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1><i class="fas fa-download"></i> Download Files</h1>
+  <div class="token">Token: {{ token }}</div>
+  {% if not found %}
+    <p class="error"><i class="fas fa-exclamation-triangle"></i> Link not found or expired.</p>
+  {% else %}
+    {% if wrong_pin %}
+      <p class="wrong-pin"><i class="fas fa-times-circle"></i> Wrong PIN</p>
+    {% endif %}
+    <div class="details">
+      <p><i class="fas fa-clock"></i> Expires at (UTC): {{ expires_at }}</p>
+      <p><i class="fas fa-folder"></i> Files:</p>
+      <ul class="file-list">
+        {% for f in files %}
+          <li><i class="fas fa-file"></i> {{ f.original_name }} ({{ f.size }} bytes)</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <form method="post">
+      <label for="pin"><i class="fas fa-key"></i> Enter PIN: <input type="password" id="pin" name="pin" required></label>
+      <button type="submit"><i class="fas fa-unlock"></i> Decrypt & Download</button>
+    </form>
+  {% endif %}
+</div>
+</body>
+</html>
